@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: tahoma, geneva, sans-serif;
+}
+
+body{
+  height: 100vh;
+  background-image:linear-gradient(rgba(220, 0, 0, 0.5), rgba(220, 0, 0, 0.5)), url('../1.jpg');
+  background-position:center top;
+  background-size: cover;
+
+}
+
+.loginpage{
+  width:100%;
+}
+
+
+
+.logo img{
+  width: 150px;
+  height: auto;
+  margin-top: 35px;
+  margin-left: 82px;
+}
+
+.title2{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.title2 a{
+  text-decoration: none;
+}
+
+.title2 a h1{
+  color: white;
+  font-size: 70px;
+}
+
+.title2 a h1:hover{
+  color: lawngreen;
+}
+
+.plan_choose{
+  margin-top: 80px;
+  margin-left: 10%;
+}
+
+.plan_choose h2{
+  margin-bottom: 60px;
+  font-size: 35px;
+  color: yellow;
+  font-style: oblique;
+}
+
+.payment_plan_choosing{
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 15%;
+}
+
+.one_plan input{
+  margin-bottom: 10px;
+}
+
+.button{
+  position: absolute;
+  top: 75%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.button2{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn{
+  margin-right: 15px;
+  border: 2px solid white;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.5s ease;
+
+}
+
+.btn:hover{
+  background-color: lawngreen;
+  color: navy;
+}
+
+.headline{
+  margin-top: 50px;
+  margin-left: 20%;
+}
+
+.headline h2{
+  color: yellow;
+  font-style: italic;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+.dropdown_list{
+  margin-left: 30%;
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+.account_no{
+  margin-left: 30%;
+  margin-top: 25px;
+  font-size: 20px;
+}

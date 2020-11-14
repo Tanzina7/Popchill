@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Payment Plan</title>
+    <link rel="stylesheet" type="text/css" href="css/payment_plan_styles.css">
+  </head>
+  <body>
+
+    <header>
+
+
+      <div class="loginpage">
+
+         <div class="title2">
+           <a href="index.html"><h1>PopChill</h1></a>
+
+         </div>
+
+         <div class="logo">
+           <img src="logo.png"  alt="website logo">
+         </div>
+
+
+      </div>
+
+    </header>
+
+    <main>
+      <div class="pay">
+        <div class="headline">
+          <h2>Payment method</h2>
+        </div>
+
+
+        <form class="pay_method" action="login.html" method="get">
+          <div class="dropdown_list">
+             <label for="Method">Choose a Method:</label>
+             <select id="Method" name="Method">
+             <option value="bKash">bKash</option>
+             <option value="DBBL Rocket">DBBL Rocket</option>
+             <option value="DBBL Nexus">DBBL Nexus</option>
+             <option value="Master">Master</option>
+             <option value="Visa">Visa</option>
+             </select>
+          </div>
+
+          </form>
+
+          <div class="headline">
+            <h2>Enter your card/account number:</h2>
+          </div>
+          <form class="pay_method" action="login.html" method="get">
+          <div class="account_no">
+            <label for="card_no">Card/Account No:</label>
+            <input type="text" id="card_no" name="card_no" required>
+          </div>
+          </form>
+
+          <div class="headline">
+            <h2>Enter your PIN number:</h2>
+          </div>
+
+          <form class="pay_method" action="login.html" method="get">
+          <div class="account_no">
+            <label for="pin_no">PIN No:</label>
+            <input type="password" id="pin_no" name="pin_no" required>
+          </div>
+
+          <div class="button2">
+            <input class="btn" type="submit" value="Submit" name="">
+          </div>
+        </form>
+
+      </div>
+    </main>
+
+  </body>
+</html>

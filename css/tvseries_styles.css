@@ -1,0 +1,36 @@
+.tv_head2{
+  margin-top: 5%;
+  margin-left: 4%;
+}
+
+.tv_head2 h2{
+  color: blue;
+  font-family: tahoma;
+  font-size: 40px;
+  font-style: italic;
+  text-decoration: underline;
+
+}
+
+.tvseies_list2 img{
+  height: 250px;
+  width: 183px;
+}
+
+.tvseies_list2 ul{
+  margin-top: 80px;
+  margin-left: 150px;
+  list-style: none;
+  list-style-type: none;
+}
+
+.tvseies_list2 ul li{
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
+.tvseies_list2 ul li a{
+  text-decoration: none;
+  transition: 0.5s ease;
+}
