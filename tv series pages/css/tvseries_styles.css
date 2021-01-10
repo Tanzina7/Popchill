@@ -1,0 +1,238 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: tahoma, geneva, sans-serif;
+}
+
+body{
+  background-image:linear-gradient(rgba(220, 0, 0, 0.5), rgba(220, 0, 0, 0.5)), url('../1.jpg');
+  background-position:center top;
+  height: 150vh;
+
+}
+
+.seriespage{
+  width:100%;
+}
+
+
+.logo img{
+
+  width: 150px;
+  height: auto;
+  margin-top: 35px;
+  margin-left: 82px;
+}
+
+.title2{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.title2 a{
+  text-decoration: none;
+}
+
+.title2 a h1{
+  color: white;
+  font-size: 70px;
+}
+
+.title2 a h1:hover{
+  color: lawngreen;
+}
+
+.summery{
+  margin-top: 20px;
+  margin-left: 9%;
+  margin-right: 9%;
+}
+
+.summery img{
+  float: right;
+  margin-top: 30px;
+  width: 220px;
+  height: 325px;
+}
+
+.summery2{
+  margin-top: 5%;
+  margin-left: 9%;
+  margin-right: 9%;
+}
+
+.summery2 img{
+  float: right;
+  margin-right: 20px;
+  margin-top: 0px;
+  width: 220px;
+  height: 325px;
+}
+
+
+.seriesname{
+  margin-top: 10%;
+}
+
+.seriesname h2{
+  float: left;
+  margin-top: 5%;
+  margin-left: 9%;
+  color: black;
+  font-family: tahoma;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.seriesname2{
+  margin-top: 10%;
+  margin-left: 10%;
+
+}
+
+.seriesname2 h2{
+  color: black;
+  font-family: tahoma;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.series_list0 ol{
+  position:absolute;
+  margin-top: 32%;
+  margin-left: 20%;
+  list-style-type: decimal;
+  float: left;
+}
+
+.series_list0 ol li{
+  display: block;
+  margin-bottom: 22px;
+  margin-right: 22px;
+  color: black;
+}
+
+.series_list0 ol li a{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+
+.series_list0 ol li a:hover{
+  color: purple;
+}
+
+.series_list0 ol li a:visited{
+  color: lawngreen;
+}
+
+
+.series_list ol{
+
+  margin-top: 8%;
+  margin-left: 15%;
+  list-style-type: decimal;
+  float: left;
+}
+
+.series_list ol li{
+  display: block;
+  margin-bottom: 22px;
+  margin-right: 22px;
+  color: black;
+}
+
+.series_list ol li a{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+
+.series_list ol li a:hover{
+  color: purple;
+}
+
+.series_list ol li a:visited{
+  color: lawngreen;
+}
+
+
+.words{
+  float: left;
+  margin-top: 30px;
+  width: 53%;
+  background-color: #ff1a1a;
+  height: 275px;
+  padding: 25px;
+}
+
+.words h3{
+  font-size: 25px;
+  color: rgb(178, 2, 255);
+
+}
+
+.words p{
+  margin-top: 20px;
+  font-size: 20px;
+  color: black;
+}
+
+
+
+.imdb_link a{
+  position: absolute;
+  float: left;
+  margin-top: 32%;
+  margin-left: 9%;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+
+}
+
+.imdb_link a:visited{
+  color: yellow;
+}
+
+.moviename1{
+  position: absolute;
+  float: right;
+  margin-left: 9%;
+}
+
+.moviename1 h2{
+  color: black;
+  font-family: tahoma;
+  font-size: 30px;
+  text-decoration: underline;
+  display: block;
+}
+
+.vdo1{
+  margin-top: 5%;
+  margin-left: 15%;
+}
+
+.vdo1 video{
+  width: 700px;
+  float: left;
+
+}
+
+.summery2{
+  margin-top: 5%;
+  margin-left: 9%;
+  margin-right: 9%;
+}
+
+.summery2 img{
+  float: right;
+  width: 220px;
+  height: 325px;
+}
