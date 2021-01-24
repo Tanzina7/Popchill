@@ -17,7 +17,7 @@
          </div>
 
          <div class="logo">
-           <img src="logo.png"  alt="website logo">
+           <img src="logo.PNG"  alt="website logo">
          </div>
 
 
@@ -28,13 +28,13 @@
     <main>
       <div class="loginpage">
 
-        <form class="login_form" action="homepage.html" method="get">
+        <form class="login_form" action="/browse.html" method="get">
 
           <div class="login_info">
             <h2>Login</h2>
           </div>
 
-          <div class="login_info">
+          <div action="" method="get" class="login_info">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
           </div>
@@ -43,15 +43,43 @@
             <label for="pwd">Password:</label>
             <input type="password" id="pwd" name="pwd" required>
           </div>
+          <div id="error"></div>
           <div class="button">
-            <input class="btn" type="submit" value="Submit" name="">
+            <input id="submit" class="btn" type="submit" value="Submit" name="">
           </div>
 
         </form>
 
       </div>
     </main>
+    <script src = "js/js1/Login.js">
+     /*
 
+      //reading the data
+      var username, pwd;
+
+      function Ready(){
+        user = document.getElementById('username').value;
+        passw = document.getElementById('pwd').value;
+
+
+      };
+      document.getElementById("submit").onclick = function(){
+        Ready();
+        firebase.database().ref('users/'+user).on('value', function(snapshot){
+
+          if(snapshot.val().Name != user || snapshot.val().Pass != passw){
+            document.getElementById("error").innerHTML = "Wrong keyword entry.";
+          }
+          else{
+            console.log(snapshot.val().Name);
+            console.log(snapshot.val().Pass);
+          }
+
+
+        });
+      }
+    </script>
 
   </body>
 </html>
