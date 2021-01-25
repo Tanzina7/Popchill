@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: tahoma, geneva, sans-serif;
+}
+
+header {
+ background-image: linear-gradient(rgba(220, 0, 0, 0.5), rgba(220, 0, 0, 0.5)), url(../1.jpg);
+
+ background-size: cover;
+ height: 50vh;
+
+}
+
+.logo img{
+  float: left;
+  width: 150px;
+  height: auto;
+  margin-top: 35px;
+  margin-left: 82px;
+}
+
+.title2{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.title2 h1{
+  color: white;
+  font-size: 70px;
+}
+
+main{
+  background-color: rgb(255, 26, 26);
+  height: 150vh;
+
+}
+
+.signup_part{
+  margin-top: 0%;
+  margin-left: 42%;
+  font-family: monospace;
+  font-size: 25px;
+}
+
+.user_info{
+  margin-bottom: 60px;
+}
+
+.user_info h2{
+  font-size: 50px;
+  color: yellow;
+}
+
+
+
+.field{
+  margin-bottom: 15px;
+}
+
+
+.field input{
+  margin-top: 0%;
+	padding-top: 10px;
+  padding-left: 50px;
+
+}
+
+.field input[type="date"]{
+	padding-left: 73px;
+
+}
+
+
+
+
+
+.radio_button{
+  margin-top: 5%;
+}
+
+
+
+.button{
+  position: absolute;
+  margin-top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn{
+  margin-right: 15px;
+  border: 2px solid white;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.5s ease;
+
+}
+
+.btn:hover{
+  background-color: lawngreen;
+  color: navy;
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PopChill Signup</title>
+    <link rel="stylesheet" type="text/css" href="css/signup_styles.css">
+
+  </head>
+  <body>
+    <header>
+      <div class="prime">
+
+        <div class="logo">
+          <img src="logo.PNG"  alt="website logo">
+        </div>
+      </div>
+
+      <div class="title2">
+        <h1>PopChill</h1>
+      </div>
+    </header>
+
+    <main>
+      <div class="signup_part">
+
+        <form class="signup_form" action="" method="">
+
+           <div class="user_info">
+             <h2><b>Signup</b></h2>
+           </div>
+
+           <div class="signup_info">
+             <div class="lel">
+               <label for="fname">First name:</label>
+             </div>
+             <div class="field">
+               <input type="text" id="fname" name="fname" >
+             </div>
+
+
+           </div>
+           <div class="signup_info">
+             <div class="lel">
+               <label for="lname">Last name:</label>
+             </div>
+             <div class="field">
+               <input type="text" id="lname" name="lname" >
+             </div>
+
+
+           </div>
+           <div class="signup_info">
+             <div class="lel">
+               <label for="username">Username:</label>
+             </div>
+             <div class="field">
+               <input type="text" id="username" name="username" >
+             </div>
+
+
+           </div>
+           <div class="signup_info">
+             <div class="lel">
+               <label for="pwd">Password:</label>
+             </div>
+             <div class="field">
+               <input type="password" id="pwd" name="pwd" >
+             </div>
+
+
+           </div>
+           <div class="signup_info">
+             <div class="lel">
+               <label for="email">Email:</label>
+             </div>
+             <div class="field">
+               <input type="email" id="email" name="email" >
+             </div>
+
+
+           </div>
+           <div class="signup_info">
+             <div class="lel">
+               <label for="phone">Phone no:</label>
+             </div>
+             <div class="field">
+               <input type="tel" id="phone" name="phone">
+             </div>
+
+
+           </div>
+
+
+
+           <div class="button">
+             <input id="insert" class="btn" type="submit" >
+             <input class="btn" type="reset">
+           </div>
+
+        </form>
+
+
+
+      </div>
+
+    </main>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+      //Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyBuOuEaEDjznHDtS3A3c5svXccnwNWVflU",
+        authDomain: "popchill-ttm.firebaseapp.com",
+        databaseURL: "https://popchill-ttm-default-rtdb.firebaseio.com",
+        projectId: "popchill-ttm",
+        storageBucket: "popchill-ttm.appspot.com",
+        messagingSenderId: "749335813003",
+        appId: "1:749335813003:web:0e39d7159fcfe20238ed8e"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      
+    </script>
+
+    
+    <script src="js/js1/Signup.js">
+
+      /*
+   
+      const fname = document.getElementById('fname');
+      const lname = document.getElementById('lname');
+      const username = document.getElementById('username');
+      const pwd = document.getElementById('pwd');
+      const email = document.getElementById('email');
+      const phone = document.getElementById('phone');
+
+    const database = firebase.database();
+    const roofRef = database.ref('users');
+
+    insert.addEventListener('click', (e) =>{
+     e.preventDefault();
+     roofRef.child(username.value).set({
+       first_name: fname.value,
+       last_name: lname.value,
+       password: pwd.value,
+       email_id: email.value,
+       phone_no: phone.value
+
+     });
+   });
+
+
+    /*
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCfWnuBhSThuZPfFj1XKSl1QpZQnQSO-fY",
+        authDomain: "popchill-cce70.firebaseapp.com",
+        databaseURL: "https://popchill-cce70-default-rtdb.firebaseio.com",
+        projectId: "popchill-cce70",
+        storageBucket: "popchill-cce70.appspot.com",
+        messagingSenderId: "732128946998",
+        appId: "1:732128946998:web:bc8a6d83657a91ccf32197"
+      };
+      // Initialize Firebase
+      //firebase.initializeApp(firebaseConfig);
+
+      //reading the data
+      var fname, lname, username, pwd, email, phone;
+
+      function Ready(){
+        //fname = document.getElementById('fname').value;
+        //lname = document.getElementById('lname').value;
+        username = document.getElementById('username').value;
+        pwd = document.getElementById('pwd').value;
+        //email = document.getElementById('email').value;
+        //phone = document.getElementById('phone').value;
+
+
+
+      };
+
+      document.getElementById('insert').onclick = function(){
+        Ready();
+        /*firebase.database().ref('student/'+username).set({
+          FirstName: fname,
+          LastName: lname,
+          UserName: username,
+          PassWord: pwd,
+          Email: email,
+          Phone: phone
+
+        });
+
+        var rootRef = firebase.database().ref('users/'+username);
+                rootRef.set({
+                  //FName: fname,
+                  //LName: lname,
+                  Name: username,
+                  Pass: pwd
+                  //Email: email,
+                  //cell: phone
+                    }).then(success => {
+                            console.log('success',success);
+                            window.location.href = "payment_plan.html";
+                        },
+                        error => {
+                            console.log('error',error);
+                        }
+                    );
+
+
+      }
+      */
+    </script>
+  </body>
+</html>

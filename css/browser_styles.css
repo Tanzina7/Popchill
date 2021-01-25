@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: tahoma, geneva, sans-serif;
+}
+
+body{
+  height: 900px;
+  background-image:linear-gradient(rgba(220, 0, 0, 0.5), rgba(220, 0, 0, 0.5)), url('../1.jpg');
+  background-position:center top;
+
+}
+
+.fullpage{
+  width:100%;
+}
+
+
+.logo img{
+
+  width: 150px;
+  height: auto;
+  margin-top: 35px;
+  margin-left: 82px;
+}
+
+.title2{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.title2 a{
+  text-decoration: none;
+}
+
+.title2 a h1{
+  color: white;
+  font-size: 70px;
+}
+
+.title2 a h1:hover{
+  color: lawngreen;
+}
+
+.mov_head{
+  margin-top: 5%;
+  margin-left: 4%;
+}
+
+
+.mov_head h2{
+  color: blue;
+  font-family: tahoma;
+  font-size: 40px;
+  font-style: italic;
+  text-decoration: underline;
+
+}
+
+.movie_list img{
+  width: 320px;
+  height: 280px;
+}
+
+.tvseies_list img{
+  height: 250px;
+  width: 183px;
+}
+
+.movie_list ul{
+  margin-top: 80px;
+  margin-left: 150px;
+  list-style: none;
+  list-style-type: none;
+}
+
+.movie_list ul li{
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
+.movie_list ul li a{
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+
+
+.tv_head{
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 4%;
+}
+
+.tv_head h2{
+
+  margin-bottom: 400px;
+  color: blue;
+  font-family: tahoma;
+  font-size: 40px;
+  font-style: italic;
+  text-decoration: underline;
+
+}
+
+.tvseies_list ul{
+  margin-top: 200px;
+  margin-left: 150px;
+  list-style: none;
+  list-style-type: none;
+}
+
+.tvseies_list ul li{
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
+.tvseies_list ul li a{
+  text-decoration: none;
+  transition: 0.5s ease;
+}

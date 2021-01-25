@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="css/login_styles.css">
+  </head>
+  <body>
+    <header>
+
+
+      <div class="loginpage">
+
+         <div class="title2">
+           <a href="index.html"><h1>PopChill</h1></a>
+
+         </div>
+
+         <div class="logo">
+           <img src="logo.PNG"  alt="website logo">
+         </div>
+
+
+      </div>
+
+    </header>
+
+    <main>
+      <div class="loginpage">
+
+        <form class="login_form" action="" method="get">
+
+          <div class="login_info">
+            <h2>Login</h2>
+          </div>
+
+          <div action="" method="get" class="login_info">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+          </div>
+
+          <div class="login_info">
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd" required>
+          </div>
+          <div id="error"></div>
+          <div class="button">
+            <input id="submit" class="btn" type="submit" value="submit" name="submit">
+          </div>
+
+        </form>
+
+      </div>
+    </main>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+      //Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyBuOuEaEDjznHDtS3A3c5svXccnwNWVflU",
+        authDomain: "popchill-ttm.firebaseapp.com",
+        databaseURL: "https://popchill-ttm-default-rtdb.firebaseio.com",
+        projectId: "popchill-ttm",
+        storageBucket: "popchill-ttm.appspot.com",
+        messagingSenderId: "749335813003",
+        appId: "1:749335813003:web:0e39d7159fcfe20238ed8e"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      
+    </script>
+
+    <script src="js/js1/Login.js">
+
+      /*
+      //reading the data
+      var username, pwd;
+
+      function Ready(){
+        user = document.getElementById('username').value;
+        passw = document.getElementById('pwd').value;
+
+
+      };
+      document.getElementById("submit").onclick = function(){
+        Ready();
+        firebase.database().ref('users/'+user).on('value', function(snapshot){
+
+          if(snapshot.val().Name != user || snapshot.val().Pass != passw){
+            document.getElementById("error").innerHTML = "Wrong keyword entry.";
+          }
+          else{
+            console.log(snapshot.val().Name);
+            console.log(snapshot.val().Pass);
+          }
+
+
+        });
+      }*/
+    </script>
+
+  </body>
+</html>
